@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="timer-page.css" type="text/css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/fb3ab407f3.js" crossorigin="anonymous"></script>
+
+    <title>Timer</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navigation-nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">StudyHack</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Education
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Schedule</a></li>
+                        <li><a class="dropdown-item" href="#">Grade Calculator</a></li>
+                   </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Materials</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Features
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item active" href="#">Timer</a></li>
+                        <li><a class="dropdown-item" href="#">Math Calculator</a></li>
+                   </ul>
+                </li>
+            </ul>
+                <a class="badge rounded-pill bg-secondary" id="nav-button">User's ФИО(Profile)</a>
+        </div>
+    </div>
+</nav>
+<header>
+    <div id="head-image">
+        <img src="https://media.xconomy.com/wordpress/wp-content/images/2020/07/10025754/iStock-1152171592.jpg" alt="clock-background">
+    </div>
+    <div id="head-title">
+        <h1>TIMER</h1>
+    </div>
+    <div id="head-content">
+        <p class="lead"><span>Time Management</span> is basically an effort made consciously to spend a certain amount of time performing a task efficiently. Furthermore, it is estimated that to have better results, one needs to do productive work. For this reason, we suggest you to use StudyHack Timer and manage a time. </p>
+        <button type="button" class="btn btn-dark">More</button>
+    </div>
+</header>
+
+<section>
+    <div class="container p-5">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"  aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/GettyImages-1301650294_463234_ofai7p.jpg" class="d-block  section-carousel-img-height" alt="Reading a Book">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="section-carousel-paragraph-color">The aim of this timer is to help you focus on any task you are working on, such as study, writing, or coding. This timer is inspired by <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" class="link-danger">Pomodoro Technique</a></p>
+                        <h5><a class="btn btn-danger" href="#" role="button">Pomodoro Timer</a></h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="https://www.verywellmind.com/thmb/udD6Gb3w5MPvGPPoNJPnILUVucQ=/3125x1758/smart/filters:no_upscale()/meditation-4157199_round2_standardsizing-7f47dee543b74e3282f6604e8e9ef126.png" class="d-block  section-carousel-img-height" alt="Meditation">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="section-carousel-paragraph-color">It is similar to an <a href="https://setalarmonline.com" class="link-primary">online alarm</a> or timer, but the Online Meditation Timer features have been specially developed with meditation in mind. These include relaxing music and customizable sounds with a repeating interval option, the ability to set preparation time for your session, and a simple, easy to use interface.</p>
+                        <h5><a class="btn btn-dark" href="#" role="button">Meditation Timer</a></h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="https://static01.nyt.com/images/2021/05/14/well/challenge-exercise-snack/challenge-exercise-snack-superJumbo.jpg" class="d-block section-carousel-img-height" alt="Workout">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="section-carousel-paragraph-color">This timer is similar to <a href="#" class="link-success">Tabata Timer</a>. The word "Tabata" refers to the format of the workout. You do 20 seconds of any high intensity exercise followed by 10 seconds of rest, for multiple rounds. The number of rounds you perform is up to you.
+
+                        </p>
+                        <h5><a class="btn btn-success" href="#" role="button">Workout Timer</a></h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="https://assets.wpdeveloper.com/2020/02/Introducing-EA-Event-Calendar-Showcase-Your-Events-with-Elementor.png" class="d-block section-carousel-img-height" alt="Event Calendar">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="section-carousel-paragraph-color">Create your own online date countdown timer. Count down the number of days left to any event in the future. The days, hours, minutes and seconds remaining are shown on a digital countdown flip clock.</p>
+                        <h5><a class="btn btn-primary" href="#" role="button">Event Timer</a></h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container" id="section-paragraph">
+        <p class="lead">Time Management is basically an effort made consciously to spend a certain amount of time performing a task efficiently. Furthermore, it is estimated that to have better results, one needs to do productive work. For this reason, we suggest you to use StudyHack Timer and manage a time. Our site contains 4 types of timer, each of which has its own functionality, design, purpose of use:</p>
+        <ol>
+            <li><a href="#">Pomodoro Timer</a></li>
+            <li><a href="#">Meditation Timer</a></li>
+            <li><a href="#">Workout Timer</a></li>
+            <li><a href="#">Event Timer</a></li>
+        </ol>
+    </div>
+</section>
+
+<footer>
+    <div class="container" id="footer-up">
+        <div class="row">
+            <form class="col-5" id="footer-up-form">
+                <div class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="text" readonly class="form-control-plaintext text-light" id="staticEmail" value="userLogin@example.com">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password">
+                    </div>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </form>
+            <div class="col-5 offset-1" id="footer-up-textarea">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                    <label for="floatingTextarea2" class="text-secondary">Comments</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="footer-down">
+        <h6 class="text-secondary col-4 ms-2">&copy; AstanaIT University</h6>
+        <div class="col-3 text-center" id="footer-link-list">
+            <a href="#">Home | </a>
+            <a href="#">Products | </a>
+            <a href="#">Contacts | </a>
+            <a href="#">Help </a>
+        </div>
+        <div class="col-4 text-end" id="footer-icon-list">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
